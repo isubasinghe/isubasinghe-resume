@@ -1,0 +1,90 @@
+name:
+  first: Isitha
+  last: Subasinghe
+
+whois:
+  - Fullstack Developer
+  - Machine Learning Developer
+  - Linux Ninja
+
+about:
+  name: Isitha Subaisnghe
+  age: "20 18/10/1998"
+  email: subasingheisitha@gmail.com
+  github: github.com/isubasinghe
+  languages: "English, Sinhalese"
+
+skills:
+  coding:
+    "C": 5
+    "Python": 5
+    "Java": 4
+    "Go": 4
+    "SQL": 4
+    "Javascript": 4
+    "C++": 3
+
+  tools:
+    "AWS": 4
+    "Unix": 4
+
+experience:
+  "2018 ~ Present":
+    title: Software Developer
+    company: Australian Bureau of Statistics
+    descr: >
+      Worked to implement a text classification microservice in c++ in order to help 
+      reduce workload by humans. Used a message broker to ensure fast and scalable processing of information.
+      Only 60 requests per second was required, however managed to acheive a rate of 5000 requests per
+      second on a single AWS t2.large EC2 instance. 
+      Implemented a nodejs based API to implement search capabilities for the 2021 ecensus, search 
+      API was backed by elasticsearch and mongodb.
+      Worked on developing a PWA for use for by Census Field Agents for the 2021 census.
+
+  "2018 ~  Present":
+    title: Sysadmin/Devops
+    company: Symphony3
+    descr: >
+      Implemented integrations with WS02 ESB and third party ECM by writing a custom
+      Java module.
+      Implemented CI/CD solution for Drupal.
+      Reduced Drupal downtime due to security upgrade from ~30mins to < 1 min.
+
+education:
+  University of Melbourne:
+    - Bachelor of Science (Computing and Software Systems)
+  St. Joseph's College Geelong:
+    - Graduated with a VCE High Acheivers Award
+  
+interests:
+  coding:
+    - Machine Learning
+    - Operating Systems
+    - Scalability
+  hardware:
+    - Raspberry Pi
+  misc:
+    - Flying gliders
+    - Cricket
+
+
+theme:
+    colors:
+        pri: "#2ECCFA"
+        sec: "#A4A4A4"
+
+    icons:
+        about: fa fa-user
+        skills: fa fa-bolt
+        skill: fa fa-cog
+        experience: fa fa-gavel
+        education: fa fa-graduation-cap
+        interests: fa fa-thumbs-up
+        level: fa fa-star
+        details:
+            - fa fa-comment
+            - fa fa-calendar
+            - fa fa-envelope
+            - fa fa-github
+            - fa fa-globe
+
